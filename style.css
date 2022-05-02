@@ -1,0 +1,26 @@
+h1 {
+  margin: 20px 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+.province-select,
+.city-select,
+.search-btn {
+  margin: 15px 0;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+th,
+td {
+  text-align: center;
+}
+
+footer p {
+  margin-top: 30px;
+  text-align: center;
+}

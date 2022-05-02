@@ -7,8 +7,54 @@
   <title>天气查询</title>
   <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="container">
+    <!-- 头部 -->
+    <header>
+      <h1>未来 48 小时天气查询</h1>
+      <div class="search-wrapper">
+        <div class="row province-select">
+          <select class="form-select">
+            <option selected>请选择省份</option>
+          </select>
+        </div>
+        
+        <div class="row city-select">
+          <select class="form-select">
+            <option selected>请选择城市</option>
+          </select>
+        </div>
+
+        <div class="row search-btn">
+          <button type="button" class="btn btn-primary">查询</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- 主体区域 -->
+    <main>
+      <h2>江西省南昌市天气</h2>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>时间</th>
+            <th>温度</th>
+            <th>天气</th>
+            <th>风向</th>
+            <th>风力</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </main>
+
+    <!-- 底部 -->
+    <footer>
+      <p>Copyright &copy; 2022 Rylanwe. Thanks: <a href="https://github.com/Hacker-C">Hacker-C</a></p>
+    </footer>
+  </div>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
